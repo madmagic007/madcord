@@ -191,32 +191,17 @@ i needed to add the code to my theme
 	cx: 4;
 }
 
-/* Makes my special name more visible in the bottom right corner*/
-.usernameContainer-1fp4nu, .size14-e6ZScH, .nameTag-3uD-yy {
-	overflow: visible !important;
-}
-.size14-e6ZScH {
-	color: red !important;
-	padding-top: 10px;
-}
- .size10-tblYdA.subtext-3CDbHg {
-	position: absolute;
-	margin-top: -3.5em;
-	margin-left: 37px;
+/* edits the buttons in bottom left and discrim/vc name colors*/
+.size10-tblYdA {
+	color: purple !important;
 }
 .flex-1xMQg5 [Name="Nova_Headset"],
 .flex-1xMQg5 [Name="Gear"],
 .flex-1xMQg5 [Name="Nova_Microphone"] {
-	padding-right: 15px;
 	color: red;
 }
 .button-14-BFJ {
 	background-color: transparent !important;
-}
-
-/* makes the connected vc channel and discrim purple*/
-.size10-tblYdA {
-	color: purple !important;
 }
 
 /* animates all of the user popout bg's, credit to spectra for code*/
