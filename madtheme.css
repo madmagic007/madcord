@@ -1,11 +1,11 @@
-/* base theme*/
-@import url("https://raw.githack.com/codedotspectra/themes/master/neutron/importCSS/xcore.css");
-
 /* 
 i do not own the base theme, credit goes to spectra for making neutron x, i made some changes to it.
 credit for circular status code also goes to spectra, i made a few changes to it but since it was an import,
 i needed to add the code to my theme
 */
+
+/* base theme*/
+@import url("https://raw.githack.com/codedotspectra/themes/master/neutron/importCSS/xcore.css");
 
 :root {
     --brightness: 0.3;
