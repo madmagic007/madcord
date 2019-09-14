@@ -4,6 +4,17 @@ credit for circular status code also goes to spectra, i made a few changes to it
 i needed to add the code to my theme
 */
 
+/* base theme*/
+@import url("https://raw.githack.com/codedotspectra/themes/master/neutron/importCSS/xcore.css");
+
+:root {
+    --brightness: 0.3;
+    --RoleTitleColor: red;
+    --PrimaryColor01: #ff0000;
+    --PrimaryColorRGBA: rgba(255,0,0,.15);
+    --bgImage: url('https://i.ibb.co/zbghr1d/Dragon-Fantasy-Wallpapers-4k.jpg');
+    --customFont: 'Whitney';
+}
 
 /* ADD CODE BELOW TO CUSTOMIZE THE THEME */
 
