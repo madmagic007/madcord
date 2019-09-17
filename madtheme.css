@@ -20,7 +20,7 @@ i needed to add the code to my theme
 
 /* makes the watermark my own*/
 .wordmarkWindows-1v0lYD{
-	content: "https://github.com/madmagic007/madcord/blob/master/madcord.png?raw=true";
+	content: url("https://raw.githubusercontent.com/madmagic007/madcord/master/madcord.png");
  	width:100px;
  	height:16px;
  	opacity:0.7;
