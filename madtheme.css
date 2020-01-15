@@ -226,3 +226,8 @@ i needed to add the code to my theme
 	width: 215px;
 	transition: all .5s ease;
 }
+
+/* fixes typing bar too close to edge on the right */
+.channelTextArea-rNsIhG .scrollableContainer-2NUZem {
+	margin-right: 10px;
+}
