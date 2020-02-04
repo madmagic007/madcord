@@ -227,7 +227,30 @@ i needed to add the code to my theme
 	transition: all .5s ease;
 }
 
-/* fixes typing bar too close to edge on the right */
+
+/* friends list + emoji buttons*/
+.theme-dark .container-1D34oG, .peopleList-3c4jOR {
+	background-color: transparent; 
+}
+.nowPlayingColumn-2sl4cE { 
+	min-width: 240px;
+} 
+.wrapper-Lii66c {
+	border: none !important;
+}
+.popoutContainer-3WC9HR:hover, .theme-dark .wrapper-3UweLa, .actionButton-uPB8Fs, .actionButton-uPB8Fs.highlight-Lf97TE, .emptyCard-1RJw8n,
+.buttonContainer-DHceWr div div {
+	background-color: rgba(0, 0, 0, 0.2);
+}
+.emojiSeparator-10VgEJ {
+	display:none
+}
+
+/* textarea fix */
 .channelTextArea-rNsIhG .scrollableContainer-2NUZem {
-	margin-right: 10px;
+	margin-right: 0px;
+	background-color: rgba(0, 0, 0, 0.4) !important;
+}
+.channelTextArea-rNsIhG, .form-2fGMdU:before {
+	background: transparent;
 }
