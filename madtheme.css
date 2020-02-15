@@ -254,3 +254,8 @@ i needed to add the code to my theme
 .channelTextArea-rNsIhG, .form-2fGMdU:before {
 	background: transparent;
 }
+
+/* message overflow for special name/emote zoom */
+.container-2LR0t2 {
+	overflow: visible;
+}
