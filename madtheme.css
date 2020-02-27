@@ -256,6 +256,6 @@ i needed to add the code to my theme
 }
 
 /* message overflow for special name/emote zoom */
-.container-2LR0t2 {
-	overflow: visible;
+.markup-2BOw-j {
+	overflow: visible !important;
 }
