@@ -69,13 +69,6 @@ i needed to add the code to my theme
     background: linear-gradient(90deg, red, purple) !important;
 }
 
-/* makes the message reactions and settings button bg darker*/
-.reactionBtn-2na4rd,
-.button-3Jq0g9 {
-    background-color: rgba(0, 0, 0, 0.8) !important;
-    border-radius: 15px;
-}
-
 /* changes the 3 buttons at the top right corner*/
 .winButtonClose-1HsbF- {
     background-color: rgba(0, 0, 0, 0) !important;
@@ -192,19 +185,6 @@ i needed to add the code to my theme
 	cx: 4;
 }
 
-/* edits the buttons in bottom left and discrim/vc name colors*/
-.size12-3cLvbJ {
-	color: purple !important;
-}
-.flex-1xMQg5 [Name="Nova_Headset"],
-.flex-1xMQg5 [Name="Gear"],
-.flex-1xMQg5 [Name="Nova_Microphone"] {
-	color: red;
-}
-.button-14-BFJ {
-	background-color: transparent !important;
-}
-
 /* animates all of the user popout bg's, credit to spectra for code*/
 .da-headerTop {
 	background-image: url('https://discordapp.com/assets/8eba753f8b6d02be1013c5e659b0fc2f.png') !important;
@@ -228,24 +208,6 @@ i needed to add the code to my theme
 }
 
 
-/* friends list + emoji buttons*/
-.theme-dark .container-1D34oG, .peopleList-3c4jOR {
-	background-color: transparent; 
-}
-.nowPlayingColumn-2sl4cE { 
-	min-width: 240px;
-} 
-.wrapper-Lii66c {
-	border: none !important;
-}
-.popoutContainer-3WC9HR:hover, .theme-dark .wrapper-3UweLa, .actionButton-uPB8Fs, .actionButton-uPB8Fs.highlight-Lf97TE, .emptyCard-1RJw8n,
-.buttonContainer-DHceWr div div {
-	background-color: rgba(0, 0, 0, 0.2);
-}
-.emojiSeparator-10VgEJ {
-	display:none
-}
-
 /* textarea fix */
 .channelTextArea-rNsIhG .scrollableContainer-2NUZem {
 	margin-right: 0px;
@@ -258,4 +220,9 @@ i needed to add the code to my theme
 /* message overflow for special name/emote zoom */
 .markup-2BOw-j {
 	overflow: visible !important;
+}
+
+/* removes "playing game" text from user popout" */
+.headerTextNormal-2mGWX3 {
+	display:none;
 }
